@@ -1,0 +1,53 @@
+/* AboutSection.css */
+.about-section {
+  background: url('G:/AYYAPPAN/SKCET/3rd Year/Application Development/LearningManagementSystem/lms/src/assets/AboutUs.jpg') no-repeat center center/cover;
+  color: rgb(0, 0, 0); /* Set text color to black */
+  padding: 100px 20px; /* Adjust padding */
+  height: auto; /* Adjust height as needed */
+  text-align: center;
+  margin-top: 0; /* Ensure no extra margin-top */
+  position: relative;
+  z-index: 0; /* Ensure it's below the Hero section */
+}
+
+.about-content {
+  font-size: 1rem; /* Adjust font size for content */
+  line-height: 1.6; /* Adjust line height for readability */
+  max-width: 800px; /* Max width to prevent content from stretching too wide */
+  margin: 0 auto; /* Center the content */
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(169, 168, 168, 0.188); /* White overlay with 18.8% opacity */
+  z-index: 1;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  margin-bottom: 10px; /* Add space below the title */
+}
+
+.about-card {
+  opacity: 90%;
+  margin: 0 auto; /* Center the card */
+  padding: 20px;
+  background: rgba(228, 227, 227, 0.274); /* Light background with 27.4% opacity */
+  border-radius: 15px;
+  max-width: 800px; /* Adjust to fit the content */
+  z-index: 2;
+}
+
+.about-text {
+  color: black; /* Ensure text color is black */
+  z-index: 2;
+}

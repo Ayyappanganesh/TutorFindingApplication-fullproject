@@ -1,0 +1,112 @@
+/* Container for the teacher registration section */
+.teacher-register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative; /* Establish a positioning context for the pseudo-element */
+  min-height: 100vh; /* Ensure it takes at least full viewport height */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow: hidden; /* Prevent extra space */
+  color: #000;
+  background: #f0f0f0; /* Remove the background image and set a neutral background color */
+}
+
+.back-button {
+  align-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #000; /* Adjust color for better visibility */
+  transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
+  z-index: 2; /* Ensure the back button is above the pseudo-element */
+}
+
+.back-button svg {
+  margin-right: 5px;
+}
+
+.back-button .MuiSvgIcon-root {
+  font-size: 2.5rem; /* Increase the size of the icon */
+}
+
+.back-button:hover {
+  color: #ff5722; /* Change the color on hover */
+  transform: scale(1.2); /* Slightly enlarge the button on hover */
+}
+
+.teacher-register-content {
+  position: relative; /* Establish a positioning context for z-index */
+  background: #ffffff; /* Set a neutral background color */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%; /* Ensure it scales with screen size */
+  margin: 0 auto;
+  z-index: 2; /* Ensure the registration content is above the pseudo-element */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.teacher-register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.teacher-register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-register-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.teacher-register-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px; /* Corrected label size */
+  color: #555555; /* Adjusted label color for better visibility */
+}
+
+.teacher-register-input,
+.teacher-register-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Adjusted border for inputs and selects */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.teacher-register-input:focus,
+.teacher-register-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.teacher-register-button {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.teacher-register-button:hover {
+  background: #0056b3;
+}

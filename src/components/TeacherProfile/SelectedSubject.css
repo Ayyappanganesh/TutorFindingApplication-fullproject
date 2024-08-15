@@ -1,0 +1,25 @@
+/* src/SelectedSubject.css */
+
+.selected-subject {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+  }
+  
+  .selected-subject button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+  
+  .selected-subject button:hover {
+    background-color: #c82333;
+  }
+  

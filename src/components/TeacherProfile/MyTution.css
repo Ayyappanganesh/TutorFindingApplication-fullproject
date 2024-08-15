@@ -1,0 +1,111 @@
+/* MyTution.css */
+.my-tution-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Adjusted for better readability */
+}
+
+.my-tutions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better spacing */
+    width: 100%;
+    max-width: 1200px; /* Max width for better readability on larger screens */
+}
+
+.tutor-card {
+    background-color: #fff;
+    border-radius: 12px; /* Slightly larger border radius for a more modern look */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for a more prominent card effect */
+    padding: 20px; /* Increased padding for better content spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-details p {
+    margin: 8px 0; /* Increased margin for better spacing between paragraphs */
+    color: #333; /* Improved readability with a darker color */
+}
+
+.card-details input {
+    border: 1px solid #ccc; /* Slightly darker border for better visibility */
+    border-radius: 4px;
+    padding: 8px; /* Increased padding for a more comfortable input field */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tution-options {
+    display: flex;
+    gap: 12px; /* Increased gap for better spacing between options */
+}
+
+.edit-prof-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px; /* Increased padding for a more clickable button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.edit-prof-btn:hover {
+    background-color: #f0f0f0; /* Subtle background change on hover */
+    border-radius: 4px; /* Consistent border-radius with other elements */
+}
+
+.itms-cntr {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Increased gap for better spacing */
+}
+
+.style-links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.ed-bck {
+    color: #ff5722;
+}
+
+.ed-bck:hover {
+    background-color: #ffe0e0;
+    border-radius: 4px; /* Consistent border-radius with other elements */
+}
+
+.del-bck {
+    color: #f44336;
+}
+
+.del-bck:hover {
+    background-color: #ffe0e0;
+    border-radius: 4px; /* Consistent border-radius with other elements */
+}
+
+.add-tut-bck {
+    color: #4caf50;
+}
+
+.add-tut-bck:hover {
+    background-color: #e8f5e9;
+    border-radius: 4px; /* Consistent border-radius with other elements */
+}

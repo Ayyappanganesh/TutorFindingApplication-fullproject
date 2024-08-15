@@ -1,0 +1,116 @@
+/* Container for the student registration section */
+.student-register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #000;
+  background: #f0f0f0; /* Neutral background color */
+  background-image: url("G:\AYYAPPAN\SKCET\3rd Year\Application Development\LearningManagementSystem\lms\src\assets\StudentRegister.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.back-button {
+  align-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #000;
+  transition: color 0.3s, transform 0.3s;
+  z-index: 2;
+}
+
+.back-button svg {
+  margin-right: 5px;
+}
+
+.back-button .MuiSvgIcon-root {
+  font-size: 2.5rem; /* Increase the size of the icon */
+}
+
+.back-button:hover {
+  color: #ff5722; /* Change the color on hover */
+  transform: scale(1.2); /* Slightly enlarge the button on hover */
+}
+
+.student-register-content {
+  position: absolute;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 500px; /* Set maximum width for the form container */
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.student-register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.student-register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-register-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.student-register-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px; /* Consistent label size */
+  color: #555555;
+}
+
+.student-register-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.student-register-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.student-register-button {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.student-register-button:hover {
+  background: #0056b3;
+}

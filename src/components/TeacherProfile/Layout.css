@@ -1,0 +1,14 @@
+.app-pg-wrap{
+    display: flex;
+}
+.other-pgs{
+    height: 100vh;
+    overflow-y: overlay;
+    flex: 0.8;
+}
+.sidebar{
+    flex: 0.2;
+}
+/* .wst{
+    height: 70px;
+} */

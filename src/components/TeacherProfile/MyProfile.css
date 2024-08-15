@@ -1,0 +1,131 @@
+.my-profile-page-cust {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.my-profile-container-cust {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+}
+  
+.my-profile-header-cust {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.my-profile-picture-cust {
+    width: 120px;
+    height: 120px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+  
+.my-profile-picture-cust img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.my-profile-header-cust h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0;
+}
+  
+.my-profile-details-cust {
+    margin-bottom: 30px;
+}
+  
+.my-profile-details-cust .my-label-cust {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+}
+  
+.my-profile-details-cust .my-value-cust {
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+  
+.my-profile-details-cust input.my-value-cust {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+  
+/* Ensure the About section fits within the main container */
+.my-about-section-cust {
+    margin-bottom: 30px;
+    overflow: hidden; /* Ensure content fits */
+}
+  
+.my-about-heading-cust {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+  
+.my-about-content-cust {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: vertical;
+    min-height: 100px;
+}
+  
+/* Button styling */
+.my-edit-prof-btn-cust {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px; /* Adjusted padding for smaller button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem; /* Slightly smaller font size */
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    width: auto;
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+.my-edit-prof-btn-cust:hover {
+    background-color: #0056b3;
+}
+  
+/* Align icon and text inside button */
+.my-itms-cntr-cust {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.my-icon-para-cust {
+    margin-left: 6px; /* Reduced margin for smaller button */
+    font-size: 0.9rem; /* Slightly smaller font size */
+}

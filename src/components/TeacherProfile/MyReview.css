@@ -1,0 +1,20 @@
+.account-page-reviews-container{
+    margin-top: 0;
+    padding-left: 1rem;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-section {
+    width: 500px;
+    overflow-y: scroll; /* Allow vertical scrolling if content exceeds */
+    max-height: 500px; /* Constrain height and allow scrolling */
+}
+
+/* Hide scrollbars but keep scrolling functionality */
+.reviews-section::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}

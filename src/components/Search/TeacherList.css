@@ -1,0 +1,63 @@
+.teacher-list {
+    background: #f4f4f4; /* Light background for the list */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .teacher-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .teacher-item:hover {
+    background: #f9f9f9;
+  }
+  
+  .teacher-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .teacher-details {
+    flex: 1;
+  }
+  
+  .teacher-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .teacher-subject {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .teacher-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .teacher-actions a {
+    color: #2196F3;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .teacher-actions a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,102 @@
+/* Container for the search section */
+.search-container {
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 40px 20px;
+  background: url('G:\AYYAPPAN\SKCET\3rd Year\Application Development\LearningManagementSystem\lms\src\assets\SearchPage2.jpg') no-repeat center center/cover;
+  position: relative; /* Establish a positioning context for the pseudo-element */
+  min-height: 100vh; /* Ensure it takes at least full viewport height */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow: hidden; /* Prevent extra space */
+  color: #fff;
+}
+
+.search-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(169, 168, 168, 0.188); /* White overlay with 18.8% opacity */
+  z-index: 1; /* Ensure the pseudo-element is behind the content */
+}
+
+/* Container for the search bar */
+.search-bar {
+  position: relative; /* Establish a positioning context for z-index */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%; /* Ensure it scales with screen size */
+
+  z-index: 2; /* Ensure the search bar is above the pseudo-element */
+
+}
+
+/* General styling for elements inside the search bar */
+.search-bar div {
+  margin-bottom: 15px;
+}
+
+/* Styling for labels */
+.search-bar label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(245, 115, 9);
+}
+
+/* Styling for inputs and selects */
+.search-bar input,
+.search-bar select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.search-bar button {
+  background-color: #dd8060;
+  color: #050505;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the submit button */
+.search-bar button:hover {
+  background-color: #e64a19;
+}
+
+/* Styling for the back button */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem; /* Increase the size of the button */
+  color: rgb(12, 12, 12); /* Change color if needed */
+  transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
+  z-index: 2; /* Ensure the back button is above the pseudo-element */
+}
+
+/* Styling for the SVG icon inside the back button */
+.back-button .MuiSvgIcon-root {
+  font-size: 2.5rem; /* Increase the size of the icon */
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+  color: #ff5722; /* Change the color on hover */
+  transform: scale(1.2); /* Slightly enlarge the button on hover */
+}

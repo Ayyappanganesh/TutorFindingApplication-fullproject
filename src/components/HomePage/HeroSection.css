@@ -1,0 +1,55 @@
+.hero-section {
+  position: relative;
+  height: calc(100vh - 60px); /* Adjust height to account for the navbar */
+  background: url('G:/AYYAPPAN/SKCET/3rd Year/Application Development/LearningManagementSystem/lms/src/assets/HomePage.jpg') no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  margin-top: 60px; /* Adjust margin-top to the navbar's height */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-section h3 {
+  position: relative;
+  z-index: 2;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section h6 {
+  position: relative;
+  z-index: 2;
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+.hero-section button {
+  position: relative;
+  z-index: 2;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: #ff5722;
+  color: #fff;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.hero-section button:hover {
+  background: #e64a19;
+}
